@@ -13,7 +13,7 @@ export function TarefasPendentes() {
           height={100}
           text={({ value, valueMax }) => `${value} / ${valueMax}`}
           valueMax={data?.data[1]}
-          value={data?.data[0] - data?.data[1]}
+          value={data?.data[1] - data?.data[0]}
         />
       </CardContent>
     </Card>
